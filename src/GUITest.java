@@ -26,13 +26,14 @@ public class GUITest {
 		JButton b52 = new JButton("at code monekys");
 		JButton doNotPushMe = new JButton(" my finger is on the button");
 		
-		
+		// We are using an anonymous class
 		b1.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				System.out.println("Stop staring!!!");	
 			} 
 		});
+		
 		
 		b2.addActionListener(new ActionListener() {
 			@Override
